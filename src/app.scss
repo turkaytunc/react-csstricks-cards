@@ -9,12 +9,30 @@ $container-height: 600px;
   padding: 3rem 0 3rem 2rem;
   gap: 1rem;
   height: $container-height;
+
+  &::-webkit-scrollbar {
+    display: block;
+    max-width: 25px;
+    height: 15px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #454545;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px rgba(97, 97, 97, 0.7), inset -2px -2px 2px rgba(97, 97, 97, 0.7);
+  }
 }
 
 .app-container::after {
   content: '';
   width: 10px;
-  height: calc(#{$container-height} - 18px);
+  height: calc(#{$container-height} - 25px);
   background: linear-gradient(170deg, #ff7a18, #df2c14 71.07%);
   border-radius: 2px;
   position: absolute;
