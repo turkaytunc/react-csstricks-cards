@@ -1,3 +1,6 @@
+$container-height: 600px;
+$left-position: 100%;
+
 .app {
   display: flex;
   background-color: #262626;
@@ -6,4 +9,15 @@
   position: relative;
   padding: 3rem 0 3rem 2rem;
   gap: 1rem;
+  height: $container-height;
+}
+
+.app::after {
+  content: '';
+  height: calc(#{$container-height} - 18px);
+  width: 20px;
+  background: magenta;
+  position: absolute;
+  top: 0;
+  left: calc(#{$left-position} - 20px);
 }
