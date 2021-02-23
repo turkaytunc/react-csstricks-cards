@@ -1,5 +1,4 @@
 $container-height: 600px;
-$left-position: 100%;
 
 .app {
   display: flex;
@@ -12,14 +11,14 @@ $left-position: 100%;
   height: $container-height;
 }
 
-.app::after {
+.app-container::after {
   content: '';
-  height: calc(#{$container-height} - 18px);
   width: 10px;
+  height: calc(#{$container-height} - 18px);
   background: linear-gradient(170deg, #ff7a18, #df2c14 71.07%);
   border-radius: 2px;
   position: absolute;
   top: 0;
-  left: calc(#{$left-position} - 10px);
+  right: 0;
   box-shadow: -10px 0 20px 3px #000;
 }
