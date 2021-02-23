@@ -1,5 +1,15 @@
 {
   "name": "css-tricks-cards",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkaytunc/react-csstricks-cards.git"
+  },
+  "author": "Türkay Tunç",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turkaytunc/react-csstricks-cards/issues"
+  },
+  "homepage": "https://github.com/turkaytunc/react-csstricks-cards/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
