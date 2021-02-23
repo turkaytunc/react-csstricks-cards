@@ -32,9 +32,9 @@ $container-height: 600px;
 .app-container::after {
   content: '';
   width: 10px;
-  height: calc(#{$container-height} - 25px);
-  background: linear-gradient(170deg, #ff7a18, #df2c14 71.07%);
-  border-radius: 2px;
+  height: calc(#{$container-height} - 16px);
+  background: linear-gradient(170deg, hsla(25, 100%, 55%, 0.95), #df2c14d5 71.07%);
+  border-radius: 1px;
   position: absolute;
   top: 0;
   right: 0;

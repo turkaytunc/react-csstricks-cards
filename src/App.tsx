@@ -7,7 +7,7 @@ function App() {
     <div className="app-container">
       <div className="app">
         {arr.map((_, i) => (
-          <Card key={i} pubDate={arr[Math.floor(Math.random() * 15)]} />
+          <Card key={i} pubDate={arr[Math.floor(Math.random() * 10)]} />
         ))}
       </div>
     </div>
