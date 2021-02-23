@@ -5,4 +5,15 @@
   background: linear-gradient(85deg, #434343, #262626);
   box-shadow: -2rem 0 3rem -2rem #000;
   color: white;
+  transition: all 0.2s;
+  border-radius: 1rem;
+  &:not(:first-child) {
+    margin-left: -120px;
+  }
+  &:hover {
+    transform: translateX(-20px) rotate(-5deg);
+  }
+  &:hover ~ .card-container {
+    transform: translateX(100px);
+  }
 }
