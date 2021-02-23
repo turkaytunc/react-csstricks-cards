@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 .card-container {
   min-width: 300px;
   min-height: 350px;
@@ -19,4 +22,22 @@
   &:hover ~ .card-container {
     transform: translateX(100px);
   }
+}
+
+.card-header {
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.card-content {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  margin-top: 3rem;
+  color: rgb(255, 60, 0);
+  font-size: 1.2rem;
+  letter-spacing: 0.1px;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  text-indent: 1rem;
+  font-weight: 300;
 }
