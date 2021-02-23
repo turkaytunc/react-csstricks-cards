@@ -15,9 +15,11 @@ $left-position: 100%;
 .app::after {
   content: '';
   height: calc(#{$container-height} - 18px);
-  width: 20px;
-  background: magenta;
+  width: 10px;
+  background: linear-gradient(170deg, #ff7a18, #df2c14 71.07%);
+  border-radius: 2px;
   position: absolute;
   top: 0;
-  left: calc(#{$left-position} - 20px);
+  left: calc(#{$left-position} - 10px);
+  box-shadow: -10px 0 20px 3px #000;
 }
