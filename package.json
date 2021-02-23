@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/turkaytunc/react-csstricks-cards/issues"
   },
-  "homepage": "https://github.com/turkaytunc/react-csstricks-cards",
+  "homepage": "https://turkaytunc.github.io/react-csstricks-cards/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
