@@ -2,7 +2,7 @@ import React from 'react';
 import './card.scss';
 
 const Card = ({ pubDate }: { pubDate: number }) => {
-  const textColor = 'green';
+  const textColor = 'rgb(124, 229, 255)';
   return (
     <article className="card-container">
       <p className="card-header">Article on March {pubDate} 2021</p>
