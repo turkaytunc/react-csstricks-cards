@@ -3,7 +3,7 @@ $container-height: 600px;
 .app {
   display: flex;
   background-color: #262626;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 10px repeat(auto-fit, minmax(250px, 1fr)) 10px;
   overflow-x: scroll;
   position: relative;
   padding: 3rem 0 3rem 2rem;

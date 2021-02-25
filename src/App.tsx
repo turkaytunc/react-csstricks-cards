@@ -2,7 +2,12 @@ import './app.scss';
 import Card from './components/card/Card';
 
 function App() {
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let arr: number[] = [];
+
+  for (let i = 0; i < 20; i++) {
+    arr.push(i);
+  }
+
   return (
     <div className="app-container">
       <div className="app">
